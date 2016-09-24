@@ -5,7 +5,7 @@ tone 900, 1000
 REM Open GPS functions
 gps.open
 
-REM Open Text-to-Speech functions. Announce data log and transmission
+REM Open TTS functions
 tts.init
 tts.speak "This phone's GPS data has been logged and transmitted."
 tts.stop
